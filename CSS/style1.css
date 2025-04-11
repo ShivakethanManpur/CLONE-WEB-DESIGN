@@ -1,0 +1,1656 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;  
+}
+body{
+    width: 100%;
+    max-height: 1000vh;     
+}
+
+
+/* SECTION-CONTAINER */
+.section_container{
+    background-image:url(../Image/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 20px;
+}
+.mail p{
+   
+    font-size: 16px;
+    font-weight: 300;   
+}
+.social-icons{
+    display: flex;
+    margin-bottom: -30px;
+    gap: 30px;
+}
+.header{
+    max-width: 100vw;
+    display:flex ;
+    align-items: center;
+    justify-content:center;
+    gap:48%;
+    color: #FFFFFF;   
+}
+.mail{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#FFFFFF;
+    gap: 20px;    
+}
+nav{
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     max-width: 100vw; 
+     
+}
+ .nav_links{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+    padding: 10px 20px;
+    max-width: 100vw;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+} 
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+} 
+.screenshot{
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 200px;
+}
+.menu-icon{
+    font-size: 30px;
+    display:none ;
+}
+.nav_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin:15px;
+    
+}
+.nav_links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 100px;
+    list-style-type: none;
+}
+.nav_links ul li a{
+    text-decoration: none;
+    color: #232233;
+    font-size: 20px;
+    font-weight: 600; 
+    padding: 20px 40px;
+   
+    
+}
+ .nav_links  li a.active{
+    text-decoration: underline;
+    color: #5956E9;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    position: absolute;
+    z-index: 1;
+}
+.download{
+    padding: 10px 10px;
+    background-color: #5956E9;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: #FFFFFF;
+    cursor: pointer;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:30px 0px;
+}
+.heading h2{
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 63.48px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.house a{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.house{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* BLOG-SECTION */
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0px;
+    width:100%;
+    padding: 20px 100px ;
+    gap:100px;
+}
+
+
+/* LEFT-COLUMN */
+.left-column{
+   display: flex;
+   flex-direction: column;
+   gap: 60px;
+   width:771px;
+}
+.snap{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.snap h2{
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-transform: uppercase;
+    height: 117px;
+    margin-left: 10px;
+}
+.snap p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 92px;
+    margin-left: 10px;
+}
+.snap a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #5956E9;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.iphone{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.iphone h2{
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-transform: uppercase;
+    height: 117px;
+    margin-left: 10px;
+}
+.iphone p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 92px;
+    margin-left: 10px;
+}
+.iphone a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #5956E9;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.instagram{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.instagram h2{
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-transform: uppercase;
+    height: 117px;
+    margin-left: 10px;
+}
+.instagram p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 92px;
+    margin-left: 10px;
+}
+.instagram a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #5956E9;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.facebook{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.facebook h2{
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-transform: uppercase;
+    height: 176px;
+    margin-left: 10px;
+}
+.facebook p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 92px;
+    margin-left: 10px;
+}
+.facebook a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #5956E9;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.pixel{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+.pixel h2{
+    font-size: 39.06px;
+    font-weight: 600;
+    line-height: 58.5px;
+    text-transform: uppercase;
+    height: 117px;
+    margin-left: 10px;
+}
+.pixel p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    height: 92px;
+    margin-left: 10px;
+}
+.pixel a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #5956E9;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+.pages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.pages a{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #6C6C72;
+    text-decoration: none;
+}
+a.active{
+    text-decoration: underline;
+    color: #5956E9;
+}
+
+
+/* RIGHT-COLUMN */
+.right-column{
+    position: relative;
+    transform: translateY(-750px);
+    width:371px;
+}
+#email{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 10px 120px 10px 70px;
+    border-radius: 1px solid #6C6C72;
+    margin:30px 0px;
+    margin-left: -25px;
+}
+.glass{
+    transform: translateX(20px);
+    font-size: 20px;
+}
+.recent{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    margin: 40px 0px;
+    width:371px;
+}
+.recent h2{
+    font-size: 31.25px;
+    line-height: 47.25px;
+    font-weight: 700;
+    color: #232233;
+    text-transform: uppercase;
+}
+.lines img{
+    margin-left: -10px;
+    width:370px;
+    height: 180px;
+}
+.lines p{
+   font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   text-transform: uppercase;
+   color: #232233;
+}
+
+.book img{
+    margin-left: -10px;
+    width:370px;
+    height: 180px; 
+}
+.book p{
+    font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   text-transform: uppercase;
+   color: #232233;
+}
+
+.bulb img{
+    margin-left: -10px;
+    width:370px;
+    height: 180px;
+}
+.bulb p{
+    font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   text-transform: uppercase;
+   color: #232233;
+}
+.photo img{
+    margin-left: -10px;
+    width:370px;
+    height: 180px;
+}
+.photo p{
+    font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   text-transform: uppercase;
+   color: #232233;
+}
+.lappi img{
+    margin-left: -10px;
+    width:370px;
+    height: 180px;
+}
+.lappi p{
+    font-size: 20px;
+   font-weight: 600;
+   line-height: 30px;
+   text-transform: uppercase;
+   color: #232233;
+}
+.apps h2{
+    font-size: 31.25px;
+    line-height: 47.25px;
+    font-weight: 700;
+    color: #232233;
+    text-transform: uppercase;
+}
+.apps ul{
+    list-style:disc inside url(../Image/arrow-right-s-fill.png);
+}
+.apps ul li{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #6C6C72;
+   padding: 5px 10px;
+   transition: font-size 1s;
+}
+.apps ul li:hover{
+    font-size: 30px;
+}
+ 
+.tags h2{
+    font-size: 31.25px;
+    line-height: 47.25px;
+    font-weight: 700;
+    color: #232233;
+    text-transform: uppercase;
+}
+.tags a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #232233;
+    padding: 10px 20px;
+    margin-left: -10px; 
+}  
+.tags a:hover{
+    font-size: 25px;
+}
+
+
+
+/* FOOTER-SECTION */
+footer{
+    width: 100%;
+}
+.last{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #232233;
+}
+.Right{
+    border-right: 4px solid #6C6C72;
+    padding: 50px 0px;
+}
+.contactus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    margin: 50px 0px;
+}
+.page{
+    width:334px;
+    height: 183px;   
+}
+.page h2{
+    font-size: 31.25px;
+    font-weight:700;
+    line-height: 47.25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.page p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #FFFFFF;
+    justify-self: flex-start;
+}
+.f{
+    border-right: 1px solid #6C6C72;
+}
+.links h3{
+    font-size: 25px;
+    font-weight: 600;
+    color:#FFFFFF;
+    line-height: 37.5px;
+    text-transform: uppercase;
+}
+.links ul{
+    list-style: none;
+    padding: 10px 0px ;
+}
+.links ul li{
+    padding: 5px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.news{
+    width: 369px;
+    height: 180px;
+}
+.news h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.news p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+#gmail{
+    padding:20px 180px 20px 20px;
+    border-radius: 10px;
+    border: #232233;
+    position: relative;
+}
+.plane{
+    
+    border-radius: 4px;
+    background-color: #5851EA;
+    padding:10px;
+    position: absolute;
+    transform: translateX(-50px) translateY(5px);
+    color: #FFFFFF;
+}
+.foot{
+   width:58%
+}
+.foot p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/* MEDIA QUERIERS */
+@media screen and (max-width:1500px){
+    .nav_links ul{
+        gap: 40px;
+    }
+    .home{
+        margin-left: 40px;
+    }
+   .nav_links ul li a{
+    padding:20px 20px ;
+   }
+   .header{
+    gap:45%
+   }
+   .foot{
+    width:80%
+   }
+}
+
+
+@media screen and (max-width:1268px){
+   
+    .blog{
+        gap:40px;
+    }
+    .foot{
+        width:90%
+    }
+}
+
+@media screen and (max-width:1203px){
+    
+    .nav_links ul{
+        gap:20px;
+    }
+    .blog{
+        gap:20px;
+    }
+    .left-column{
+        width:670px;
+    }
+    .screenshot{
+        margin-left: 150px;
+    }
+    .snap{
+        width:670px;
+        gap:20px;
+    }
+    .snap img{
+        width:670px;
+    }
+    .iphone {
+        width:670px;
+        gap:20px;
+    }
+    .iphone img{
+        width:670px;
+    }
+    .instagram {
+        width:670px;
+        gap:20px;
+    }
+    .instagram img{
+        width:670px;
+    }
+    .facebook {
+        width:670px;
+        gap:20px;
+    }
+    .facebook img{
+        width:670px;
+    }
+    .facebook h2{
+        word-break: break-all;
+        word-wrap: break-word;
+        width:645px;
+    }
+    .pixel {
+        width:670px;
+        gap:20px;
+    }
+    .pixel img{
+        width:670px;
+    }
+   .contactus{
+    gap:100px;
+   }
+   .right-column{
+    transform: translateY(-670px);
+    width:300px;
+   }
+   #email{
+    padding: 10px 80px 10px 40px;
+   }
+  .lines{
+    width: 300px;
+  }
+   .lines img{
+    width:300px;
+   }
+   .lines p{
+    width:300px;
+   }
+   .book img{
+    width:300px;
+   }
+   .book p{
+    width:300px;
+   } 
+   .bulb img{
+    width:300px;
+   }
+   .bulb p{
+    width:300px;
+   } 
+   .photo img{
+    width:300px;
+   }
+   .photo p{
+    width:300px;
+   }
+    .lappi img{
+    width:300px;
+   }
+   .lappi p{
+    width:300px;
+   }
+   
+   .recent{
+    width:300px;
+   }
+}
+
+
+@media screen and (max-width:1119px){
+    .menu-icon{
+        display: flex;
+        cursor: pointer;
+    }
+    .nav_links{
+        gap: 700px; 
+    }
+    .nav_links ul{
+        display: block;
+        position: absolute;
+        margin-top: 250px;
+        background-color: white;
+        z-index: 3;
+        background-image: url(../Image/Remove.png); 
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y:10px;
+        z-index: 4;    
+    }
+    .home{
+        display: block; 
+        margin-left:-10px ;  
+    }
+    .screenshot{
+        display: block;
+        margin-left: -10px;
+    }
+    .nav_links ul li{
+        display: block;
+        position: relative; 
+    }
+    .nav_links ul li a{
+        display:none ;
+        padding: 10px 20px; 
+        border-radius: 10px;  
+    }
+    :hover .nav_links ul li a{
+        display: flex;   
+    }
+     .nav_links ul li a:hover{
+       color: #5956E9;
+    }
+    .right-column{
+        transform: translateY(-670px);
+    }
+    .tags a{
+        padding: 10px 50px;
+    }
+    .page{
+        width:300px;
+    }
+    .news {
+        width:300px;
+    }
+   #gmail{
+    padding: 20px 140px 20px 20px;
+   }
+}
+
+
+@media screen and (max-width:1018px){
+   .nav_links{
+    gap:600px;
+   }
+   .header{
+    gap:30%;
+   }
+    .blog{
+        flex-direction: column-reverse;
+        padding: 20px 20px;
+    }
+    .left-column{
+        width:100%;
+        margin-top: -80px;
+    }
+    .right-column{
+        transform: translateY(-100px);
+        width:100%;
+    }
+    #email{
+        width:100%;
+        padding: 10px 10px 10px 80px;
+       margin-left: 2px;
+    }
+    .glass{
+        transform: translateX(30px) translateY(65px);
+    }
+    .recent{
+        width:100%;  
+        align-items: center;
+        justify-content: center;
+    }
+    .post{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap:20px;
+    }
+    .apps{
+        
+        align-self:flex-start;
+    }
+    .tags{
+        align-self:flex-start;
+    }
+    .lines{
+        width: 370px;
+      }
+       .lines img{
+        width:370px;
+       }
+       .lines p{
+        width:370px;
+       }
+       .book img{
+        width:370px;
+       }
+       .book p{
+        width:370px;
+       } 
+       .bulb img{
+        width:370px;
+       }
+       .bulb p{
+        width:370px;
+       } 
+       .photo img{
+        width:370px;
+       }
+       .photo p{
+        width:370px;
+       }
+        .lappi img{
+        width:370px;
+       }
+       .lappi p{
+        width:370px;
+       }
+       .text-with-lines{
+        width:370px;
+       }
+      .tags a{
+        padding: 10px 20px;
+      }
+      .contactus{
+        gap:30px;
+      }
+      .socialicons{
+        gap:15px;
+      }
+}
+
+
+@media screen and (max-width:839px){
+    .nav_links{
+        gap:500px;
+    }
+.snap{
+    width:570px;
+}
+.snap img{
+    width:570px;
+}
+.snap h2{
+    width:570px;
+    font-size:30px;
+}
+.snap p{
+    height: 70px;
+    overflow: hidden;
+}
+.iphone{
+    width:570px;
+}
+.iphone img{
+    width:570px;
+}
+.iphone h2{
+    width:570px;
+    font-size:30px;
+}
+.iphone p{
+    height: 70px;
+    overflow: hidden;
+}
+.instagram{
+    width:570px;
+}
+.instagram img{
+    width:570px;
+}
+.instagram h2{
+    width:570px;
+    font-size:30px;
+}
+.instagram p{
+    height: 70px;
+    overflow: hidden;
+}
+.facebook{
+    width:570px;
+}
+.facebook img{
+    width:570px;
+}
+.facebook h2  {
+
+    width:570px;
+    font-size:30px;
+}
+.facebook p{
+    height: 70px;
+    overflow: hidden;
+}
+.pixel{
+    width:570px;
+}
+.pixel img{
+    width:570px;
+}
+.pixel h2{
+    width:570px;
+    font-size:30px;
+}
+.pixel p{
+    height: 70px;
+    overflow: hidden;
+}
+  .page{
+    width:213px;
+    height: 181px;   
+}
+.page p{
+    font-size: 14px;
+}
+.links{
+    width:123px;
+    height: 175px;
+}
+.links h3{
+    font-size: 20px;
+}
+.links ul li{
+    font-size: 14px;
+}
+.news{
+    width: 213px;
+    height: 171px;
+}
+.news h3{
+    font-size: 20px;
+}
+.news p{
+    font-size: 14px;
+}
+#gmail{
+    padding:20px 50px 20px 20px;
+}
+.plane{
+    transform: translateX(-50px) translateY(5px);
+}
+.foot{
+    width:80%;
+}
+}
+ 
+
+@media screen and (max-width:756px){
+    .nav_links{
+        gap:450px;
+    }  
+}
+
+
+@media screen and (max-width:698px){
+    .nav_links{
+        gap:400px;
+    }
+    .header{
+        display: none;
+    }
+    .nav_header{
+        margin:50px 0px;
+    }
+}
+
+
+@media screen and (max-width:611px){
+    .nav_links{
+        gap:350px;
+    }
+      .snap{
+          width:470px;
+      }
+      .snap img{
+          width:470px;
+      }
+      .snap h2{
+          width:470px;
+          line-height:40px;
+      }
+      .snap p{
+          width:470px;
+      }
+      .iphone{
+          width:470px;
+      }
+      .iphone img{
+          width:470px;
+      }
+      .iphone h2{
+          width:470px;
+          line-height:40px;
+      }
+      .iphone p{
+          width:470px;
+      }
+      .instagram{
+          width:470px;
+      }
+      .instagram img{
+          width:470px;
+      }
+      .instagram h2{
+          width:470px;
+          line-height:40px;
+      }
+      .instagram p{
+          width:470px;
+      }
+          
+      .facebook{
+          width:470px;
+      }
+      .facebook img{
+          width:470px;
+      }
+      .facebook h2{
+          width:470px;
+          line-height:40px;
+      }
+      .facebook p{
+          width:470px;
+      }
+      .pixel{
+          width:470px;
+      }
+      .pixel img{
+          width:470px;
+      }
+      .pixel h2{
+          width:470px;
+          line-height:40px;
+      }
+      .pixel p{
+          width:470px;
+      }
+      .contactus{
+          flex-direction:column;
+      }
+      .links{
+          width:334px;
+      }
+      .page{
+          width:334px;
+      }
+      .news{
+          width:334px;
+      }
+      #gmail{
+          padding:20px 160px 20px 20px;
+      }
+    .contactus{
+        margin-left:-100px;
+    }
+    .foot{
+        width:90%;
+    }
+}
+
+
+@media screen and (max-width:567px){
+    .nav_links{
+        gap:320px;
+        padding:10px 10px;
+    }
+    .download{
+        margin-left:10px;
+        font-size:18px;
+    }
+    .Logo img{
+        margin-left:-20px;
+        width:180px;
+        height:90px;
+    }
+}
+
+
+@media screen and (max-width:500px){
+    .nav_links{
+        gap:250px;
+    }
+    .download{
+        margin-left:-10px;
+    }
+    .Logo{
+        margin-left:-40px;
+    }
+    .snap{
+        width:370px;
+    }
+    .snap img{
+        width:370px;
+    }
+    .snap h2{
+        width:370px;
+        font-size:25px;
+    }
+    .snap p{
+        width:370px;
+    }
+    .iphone{
+        width:370px;
+    }
+    .iphone img{
+        width:370px;
+    }
+    .iphone h2{
+        width:370px;
+        font-size:25px;
+    }
+    .iphone p{
+        width:370px;
+    }
+    .instagram{
+        width:370px;
+    }
+    .instagram img{
+        width:370px;
+    }
+    .instagram h2{
+        width:370px;
+        font-size:25px;
+    }
+    .instagram p{
+        width:370px;
+    }
+    .facebook{
+        width:370px;
+    }
+    .facebook img{
+        width:370px;
+    }
+    .facebook h2{
+        width:370px;
+        font-size:25px;
+    }
+    .facebook p{
+        width:370px;
+    }
+    .pixel{
+        width:370px;
+    }
+    .pixel img{
+        width:370px;
+    }
+    .pixel h2{
+        width:370px;
+        font-size:25px;
+    }
+    .pixel p{
+        width:370px;
+    }
+    .contactus{
+        margin-left:-20px;
+    }
+    
+}
+
+
+@media screen and (max-width:425px){
+    .heading{
+        margin-left:-20px
+    }
+}
+
+@media screen and (max-width:411px){
+    .nav_links{
+        gap:230px;
+    }
+    .download{
+        font-size:16px;
+        margin-left:-10px;
+    }
+}
+
+
+@media screen and (max-width:398px){
+    .nav_links{
+        gap:210px;
+    }
+    .Logo img{
+        width:160px;
+        height:80px;
+    }
+    .heading{
+        margin-left:-50px;
+    }
+    .lines {
+        margin-left:5px;
+    }
+    .book{
+        margin-left:5px
+    }
+    .bulb{
+        margin-left:5px;
+    }
+    .photo{
+        margin-left:5px;
+    }
+    .lappi{
+        margin-left:5px;
+    }
+    .snap{
+        width:320px;
+    }
+    .snap img{
+        width:320px
+    }
+    .snap h2{
+        width:320px;
+    }
+    .snap p{
+        width:320px;
+    }
+    .iphone{
+        width:320px;
+    }
+    .iphone img{
+        width:320px;
+    }
+    .iphone h2{
+        width:320px;
+    }
+    .iphone p{
+        width:320px;
+    }
+    .instagram{
+        width:320px;
+    }
+    .instagram img{
+        width:320px;
+    }
+    .instagram h2{
+        width:320px;
+    }
+    .instagram p{
+        width:320px;
+    }
+    .facebook{
+        width:320px;
+    }
+    .facebook img{
+        width:320px;
+    }
+    .facebook h2{
+        width:320px;
+    }
+    .facebook p{
+        width:320px;
+    }
+    .pixel {
+        width:320px;
+    }
+    .pixel img{
+        width:320px;
+    }
+    .pixel h2{
+        width:320px;
+    }
+    .pixel p{
+        width:320px;
+    }
+    .tags a{
+        padding:10px 10px;
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .nav_links{
+        gap:200px;
+    }
+    .recent{
+        width:320px;
+    }
+    .lines{
+        width:300px;
+    }
+    .lines img{
+        width:300px;
+    }
+    .lines p{
+        width:300px;
+    }
+    .book {
+        width:300px;
+    }
+    .book img{
+        width:300px;
+    }
+    .book p{
+        width:300px;
+    }
+    .bulb{
+        width:300px;
+    }
+    .bulb img{
+        width:300px;
+    }
+    .bulb p{
+        width:300px;
+    }
+    .photo{
+        width:300px;
+    }
+    .photo img{
+        width:300px;
+    }
+    .photo p{
+        width:300px;
+    }
+    .lappi{
+        width:300px;
+    }
+    .lappi img{
+        width:300px;
+    }
+    .lappi p{
+        width:300px;
+    }
+}
+
+
+@media screen and (max-width:347px){
+    .download{
+        font-size:14px;
+    }
+    .Logo{
+        margin-left:-50px;
+    }
+    .recent{
+        width:270px;
+    }
+    .lines{
+        width:270px;
+    }
+    .lines img{
+        width:270px;
+    }
+    .lines p{
+        width:270px;
+        font-size:16px;
+    }
+    .book {
+        width:270px;
+    }
+    .book img{
+        width:270px;
+    }
+    .book p{
+        width:270px;
+        font-size:16px;
+    }
+    .bulb {
+        width:270px;
+    }
+    .bulb img{
+        width:270px;
+    }
+    .bulb p{
+        width:270px;
+        font-size:16px;
+    }
+    .photo{
+        width:270px;
+    }
+    .photo img{
+        width:270px;
+    }
+    .photo p{
+        width:270px;
+        font-size:16px;
+    }
+    .lappi{
+        width:270px;
+    }
+    .lappi img{
+        width:270px;
+    }
+    .lappi p{
+        width:270px;
+        font-size:16px;
+    }
+    .snap{
+        width:270px;
+    }
+    .snap img{
+        width:270px;
+    }
+    .snap h2{
+        width:270px;
+        font-size:20px;
+    }
+    .snap p{
+        width:270px;
+    }
+    .iphone {
+        width:270px;
+    }
+    .iphone img{
+        width:270px;
+    }
+    .iphone h2{
+        width:270px;
+        font-size:20px;
+    }
+    .iphone p{
+        width:270px;
+    }
+    .instagram{
+        width:270px;
+    }
+    .instagram img{
+        width:270px;
+    }
+    .instagram h2{
+        width:270px;
+        font-size:20px;
+    }
+    .instagram p{
+        width:270px;
+    }
+    .facebook{
+        width:270px;  
+    }
+    .facebook img{
+        width:270px;
+    }
+    .facebook h2{
+        width:270px;
+        font-size:20px;
+    }
+    .facebook p{
+        width:270px;
+    }
+    .pixel{
+        width:270px;
+    }
+    .pixel img{
+        width:270px;
+    }
+    .pixel h2{
+        width:270px;
+        font-size:20px;
+    }
+    .pixel p{
+        width:270px;
+    }
+    .contactus{
+        margin-left:10px;
+    }
+    .page{
+        width:300px;
+    }
+    .links{
+        width:300px;
+    }
+    .news{
+        width:300px;
+    }
+    #gmail{
+        padding:20px 80px 20px 20px;
+    }
+}
+
+
+@media screen and (max-width:320px){
+    .Logo{
+        margin-left:-40px;
+    }
+    
+    .tags a{
+        font-size:16px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,3533 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Josefin Sans", sans-serif;  
+}
+body{
+    width: 100%;
+    max-height: 3000vh;     
+}
+
+
+/* SECTION-CONTAINER */
+.section_container{
+    background-image:url(../Image/background.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.mail p{
+   
+    font-size: 16px;
+    font-weight: 300;   
+}
+.social-icons{
+    display: flex;
+    margin-bottom: -30px;
+    gap: 30px;
+}
+.header{
+    max-width: 100vw;
+    display:flex ;
+    align-items: center;
+    justify-content:center;
+    gap:48%;
+    color: #FFFFFF;   
+}
+.mail{
+    margin-top: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:#FFFFFF;
+    gap: 20px;    
+}
+nav{
+     display: flex;
+     align-items: center;
+     justify-content:center;
+     max-width: 100vw; 
+     
+}
+ .nav_links{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+    padding: 10px 20px;
+    max-width: 100vw;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+} 
+.home{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+} 
+.screenshot{
+    display: flex;
+    justify-content: space-between; 
+    margin-left: 200px;
+}
+.menu-icon{
+    font-size: 30px;
+    display:none ;
+}
+.nav_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin:15px;
+    
+}
+
+.nav_links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 100px;
+    list-style-type: none;
+}
+.nav_links ul li a{
+    text-decoration: none;
+    color: #232233;
+    font-size: 20px;
+    font-weight: 600; 
+    padding: 20px 40px;
+   
+    
+}
+ .nav_links  li a.active{
+    text-decoration: underline;
+    color: #5956E9;
+}
+.Logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;      
+    position: absolute;
+    z-index: 1;
+}
+.download{
+    padding: 10px 10px;
+    background-color: #5956E9;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: #FFFFFF;
+    cursor: pointer;
+ }
+ 
+.mobile{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding:40px 40px;
+    gap: 450px;
+    margin:80px 0px;
+  
+}
+.container{ 
+   width:570px;
+   height:432px ;
+   padding: 20px 20px;
+   background-color: #FFFFFF;
+   position: relative;
+   transform: translateX(200px);
+   z-index:2;
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+.container h2{
+    color: #5956E9;
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 63.48px;
+    text-transform: uppercase;
+    width: 517px;
+}
+.container p{
+    color: #6C6C72;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    width: 486px;
+}
+.store h3{
+    text-transform: uppercase;
+    color: #232233;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+}
+.Rectangle{
+    position: absolute;
+    z-index: 1;
+    transform: translateX(-250px) ;
+} 
+.recent{
+    margin-left: 20px;
+}
+
+/* SECTION-A */
+ 
+#section-a{ 
+    margin: 100px 0px;
+    width: 100%;
+}
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;   
+}
+.app{
+    text-align: center;
+    max-width: 35vw;
+}
+.app h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #232233;
+}
+.app p{
+    font-size:16px ;
+    font-weight:400 ;
+    line-height: 24px;
+    color: #6C6C72;
+}
+.smartphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20%;  
+    margin-top: 50px;
+    
+}
+.uses{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.tick{
+    font-size: 20px;
+}
+.Creative{
+    display: flex;
+    gap:10px;
+    width: 570px;
+    height: 160px;
+    padding: 30px 30px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius:10px;
+}
+.Creative h2{
+    color: #232233;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform:uppercase ;
+    line-height: 25px;
+}
+.Creative p{
+    color:#6C6C72;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Easy{
+    display: flex;
+    gap:10px;
+    width: 570px;
+    height: 160px;
+    padding: 30px 30px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius:10px;
+}
+.Easy h2{
+    color: #232233;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform:uppercase ;
+    line-height: 25px;
+}
+.Easy p{
+    color:#6C6C72;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Experince{
+    display: flex;
+    gap:10px;
+    width: 570px;
+    height: 160px;
+    padding: 30px 30px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius:10px;
+}
+.Experince h2{
+    color: #232233;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform:uppercase ;
+    line-height: 25px;
+}
+.Experince p{
+    color:#6C6C72;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+/* SECTION-B */
+#section-b{
+    background-image:url(../Image/Rectangle\ 14.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.appfeatures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.features{
+    text-align: center;
+    max-width: 35vw;
+    margin:100px 0px;
+}
+.features h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.features p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.specifications{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:-50px 0px;
+}
+.chat{
+    text-align: center;
+    width: 297px;
+    height: 171px;
+    color: #FFFFFF;  
+}
+.chat h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.chat p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.unlimiterfeatures{
+    text-align: right;
+    width: 297px;
+    height: 171px;
+    color: #FFFFFF;
+    margin-left: -800px;
+    margin-top: 110px;
+}
+.unlimiterfeatures h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.unlimiterfeatures p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.cell{
+    margin-left: -8px;
+}
+.android{
+    text-align: left;
+    width: 355px;
+    height: 171px;
+    color: #FFFFFF;
+    margin-top: -160px;
+    margin-left: 820px;
+   
+}
+.android h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.android p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.App{
+    margin-top: -310px;
+    margin-left: 80px;
+}
+.design{
+    text-align: right;
+    width: 297px;
+    height: 171px;
+    color: #FFFFFF;
+    margin-left: -800px;
+    margin-top: -350px;
+}
+.design h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.design p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.retina{
+    text-align: left;
+    width: 342px;
+    height: 171px;
+    color: #FFFFFF; 
+    margin-left: 820px;
+    margin-top: -165px;
+}
+.retina h2{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.retina p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.telmarket{
+    text-align: center;
+    width: 319px;
+    height: 171px;
+    color: #FFFFFF; 
+    margin:80px ;
+}
+.telmarket h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.telmarket p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+/* SECTION-C */
+
+#section-c{
+    width: 100%;
+}
+.appinterface{
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.phones{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 10px;
+}
+.interface{
+    text-align: center;
+    max-width: 35vw;
+}
+.interface h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.interface p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C72;
+}
+.first{
+    transform: translateX(175px);
+    z-index: -1;
+}
+.second{
+    transform: translateX(-175px);
+    z-index: -1;
+}
+.left-icon{
+    transform: translateX(180px);
+}
+.right-icon{
+    transform: translateX(-170px);
+}
+.footer{
+    transform: translateX(20px);
+}   
+
+
+
+/* SECTION-D */
+
+#section-d{
+    width: 100%;
+}
+.sensex{
+    position:relative;
+    margin-top: -100px;
+}
+.playstore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+}
+.updates{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    max-width:35vw;  
+}
+.subscriber{  
+   display: flex;
+   gap: 30px;
+   width: 570px;
+   height: 176px;   
+}
+.head h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.head p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C72;
+    width:570px;  
+}
+.down{
+    padding: 10px 10px; 
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background-color: #5851EA;
+    color: #FFFFFF;
+    text-align: center;
+    width: 170px;
+    height: 170px;    
+}
+.down img{
+   margin-top: 20px;
+}
+.down h5{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #FFFFFF;   
+}
+.down p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.like{
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background-color: #5851EA;
+    color: #FFFFFF;
+    text-align: center;
+    width: 170px;
+    height: 170px;
+}
+.like img{
+    margin-top: 20px;
+ }
+.like h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF; 
+    line-height: 40px;  
+}
+.like p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-transform: uppercase;
+}
+.star{
+    padding: 10px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    background-color: #5851EA;
+    color: #FFFFFF;
+    text-align: center;
+    width: 170px;
+    height: 170px;
+}
+.star img{
+    margin-top: 20px;
+ }
+.star h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 40px;   
+}
+.star p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 40px;
+    text-transform: uppercase;
+}   
+
+
+
+/* SECTION-E */
+
+#section-e{
+    background-image:url(../Image/Rectangle\ 15.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: 100%;
+    padding: 220px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.usage{
+    text-align: center;
+    max-width: 35vw;
+    margin-top: -100px;  
+}
+.usage h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.usage p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    margin-top:490px;    
+}  
+
+
+/* SECTION-F */
+#section-f{
+    width: 100%;
+}
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:300px;
+}
+.relative{
+    text-align: center;
+    max-width: 35vw;
+}
+.portofolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px;
+    gap: 40px;
+}
+.relative h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color:#232233 ; 
+    text-transform: uppercase; 
+}
+.relative p{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #6C6C72;
+}
+.Profile1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:80px;
+    width: 370px;
+    height: 580px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;
+}
+.Profile2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:80px;
+    width: 370px;
+    height: 580px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;
+}
+.Profile3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:80px;
+    width: 370px;
+    height: 580px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;
+}
+.circle{
+    position: absolute;
+    transform: translateY(-150px);
+}
+.carla{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-direction: column;
+}
+.carla h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #232233;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.carla h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #6C6C72;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.carla p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#6C6C72;
+    line-height: 24px;
+    width: 326px;
+}
+.craig{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-direction: column;
+}
+.craig h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #232233;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.craig h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #6C6C72;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.craig p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#6C6C72;
+    line-height: 24px;
+    width: 326px;
+}
+.jocelyn{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    flex-direction: column;
+}
+.jocelyn h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #232233;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.jocelyn h4{
+    font-size: 20px;
+    font-weight: 600;
+    color: #6C6C72;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.jocelyn p{
+    font-size: 16px;
+    font-weight: 400;
+    color:#6C6C72;
+    line-height: 24px;
+    width: 326px;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.f{
+    border-right: 1px solid #6C6C72;
+}
+
+
+
+/* SECTION-G */
+
+#section-g{
+    background-image:url(../Image/Rectangle\ 14.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    width: 100%;
+}
+.customers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 80px;
+}
+.review{
+    text-align: center;
+    max-width: 35vw;
+    margin-top:50px ;
+}
+.review h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #FFFFFF;
+    line-height: 47.25px;
+    text-transform: uppercase;
+}
+.review p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.founder{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    text-align: center;   
+    max-width: 90vw;
+}
+.founder1{
+    width: 570px;
+    height: 330px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 100px 0px #0000003D;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+   
+}
+.founder1 h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.founder1 h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#6C6C72;
+    text-transform: uppercase;
+}
+.founder1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C72;
+
+}
+.founder2{
+    width: 770px;
+    height: 357px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 100px 0px #0000003D;
+    z-index: 1;
+    border-radius: 10px;
+    text-align: center; 
+    padding: 10px;
+    position: absolute;
+}
+.founder2 h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.founder2 h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#6C6C72;
+    text-transform: uppercase;
+}
+.founder2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C72;
+}
+.founder3{
+    width: 570px;
+    height: 330px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 100px 0px #0000003D;
+    position: relative;
+    border-radius: 10px;
+    padding: 10px;
+}
+.founder3 h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.founder3 h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color:#6C6C72;
+    text-transform: uppercase;
+}
+.founder3 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C72;
+}
+.slider{
+    margin-bottom: 50px;
+}
+
+
+/* SECTION-H */
+#section-h{
+    width: 100%;
+}
+.blog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin:100px 0px;
+}
+.blog-head{
+    text-align: center;
+    width: 35vw;
+}
+.blog-head h2{
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 47.25px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.blog-head p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #6C6C72;
+}
+.blog-post{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 40px;
+    margin: 50px 0px;
+}
+.blog-post1{
+    width: 385px;
+    height: 500px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;   
+}
+.snap{
+    display: flex;
+    flex-direction: column; 
+    padding: 15px; 
+}
+.snap h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.snap p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C72;
+    line-height: 24px;
+}
+.snap a{
+    font-size: 20px;
+    font-weight:600;
+    line-height: 26px;
+    text-transform: uppercase;
+    color:#5851EA;
+}
+.blog-post2{
+    width: 385px;
+    height: 500px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;
+}
+.insta{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+}
+.insta h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.insta p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C72;
+    line-height: 24px;
+}
+.insta a{
+    font-size: 20px;
+    font-weight:600;
+    line-height: 26px;
+    text-transform: uppercase;
+    color:#5851EA;
+}
+.blog-post3{
+    width: 385px;
+    height: 500px;
+    box-shadow: 0px 1px 10px 0px #0000001A;
+    border-radius: 10px;
+}
+.snapchatters{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 15px;
+}
+.snapchatters h2{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #232233;
+    text-transform: uppercase;
+}
+.snapchatters p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #6C6C72;
+    line-height: 24px;
+}
+.snapchatters a{
+    font-size: 20px;
+    font-weight:600;
+    line-height: 26px;
+    text-transform: uppercase;
+    color:#5851EA;
+}
+
+
+/* FOOTER-SECTION */
+footer{
+    width: 100%;
+}
+.last{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   background-color: #232233;
+}
+.toll-free{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap: 80px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 100px 0px #0000003D;
+    padding: 50px 120px;
+    border-radius: 10px;
+    position: relative;
+    transform: translateY(-100px);
+}
+.envelope{
+    display: flex;
+    gap: 30px;
+}
+.envelope i{
+    background-color:#5851EA ;
+    border-radius: 50%;
+    padding: 25px 25px;
+    font-size: 30px;
+    color: #FFFFFF;
+    transform: translateX(-5px);
+}
+.envelope p{
+    font-size: 25px;
+    font-weight: 600;
+    line-height:37.5px;
+    color: #232233;
+    margin-top: 20px;
+}
+.phonecall{
+    display: flex;
+    gap:30px
+}
+.phonecall i{
+    background-color:#5851EA ;
+    border-radius: 50%;
+    padding: 25px 25px;
+    font-size: 30px;
+    color: #FFFFFF;
+    transform: translateX(-8px);
+}
+.phonecall p{
+    font-size: 25px;
+    font-weight: 600;
+    line-height:37.5px;
+    color: #232233;
+    margin-top: 20px;
+}
+.Right{
+    border-right: 4px solid #6C6C72;
+    padding: 50px 0px;
+}
+.contactus{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 120px;
+    margin: 50px 0px;
+}
+.page{
+    width:334px;
+    height: 183px;   
+}
+.page h2{
+    font-size: 31.25px;
+    font-weight:700;
+    line-height: 47.25px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.page p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    color: #FFFFFF;
+    justify-self: flex-start;
+}
+.links h3{
+    font-size: 25px;
+    font-weight: 600;
+    color:#FFFFFF;
+    line-height: 37.5px;
+    text-transform: uppercase;
+}
+.links ul{
+    list-style: none;
+    padding: 10px 0px ;
+}
+.links ul li{
+    padding: 5px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.news{
+    width: 369px;
+    height: 180px;
+}
+.news h3{
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 37.5px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.news p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+input[type="email"]{
+    padding:20px 180px 20px 20px;
+    border-radius: 10px;
+    border: #232233;
+    position: relative;
+}
+.plane{
+    
+    border-radius: 4px;
+    background-color: #5851EA;
+    padding:10px;
+    position: absolute;
+    transform: translateX(-50px) translateY(5px);
+    color: #FFFFFF;
+}
+.foot{
+   width:58%
+}
+.foot p{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* MEDIA QUERIERS */
+
+@media screen and (max-width:1660px){
+    .nav_links{
+        max-width: 90vw;
+    }
+    .nav_links ul{
+        gap: 80px;
+    }
+    .nav_links ul li a{
+        padding: 20px 30px; 
+    }
+    .phones{
+        max-width: 80vw;
+        gap:5px;
+    }
+    .header{
+        gap:50%;
+    }
+} 
+
+@media screen  and (max-width:1500px){
+    .mobile{
+        gap: 80px;
+    }
+    .container{
+       transform: translateX(-20px);
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .mobile{
+        gap:60px
+    }
+    .foot{
+        width: 78%;
+     } 
+    .head p{
+        width:500px;
+    }
+    
+}
+
+@media screen and (max-width:1400px){
+    .nav_links ul{
+        gap: 20px;
+    }
+    
+    .home{
+        margin-left: 40px;
+    }
+   .nav_links ul li a{
+    padding:20px 20px ;
+   }
+   .header{
+    gap:45%
+   }
+ 
+}
+
+@media screen and (max-width:1300px){
+    .home{
+        margin-left: -10px;
+    }
+    .mobile{
+        gap: 50px;
+    }
+    .Rectangle{
+        transform: translateX(-280px);
+    }
+    .smartphone{
+        gap:20px;
+    }
+    .appinterface{
+        max-width: 80vw;
+    }
+    .first{
+        transform: translateX(220px);
+    }
+    .second{
+        transform: translateX(-220px);
+    }
+    .left-icon{
+        margin-right: -50px;
+    }
+    .right-icon{
+        margin-left: -50px;
+    }
+    .portofolio{
+        gap: 10px;
+    }
+    .blog-post{
+        gap: 10px;
+    }  
+}
+
+@media screen and (max-width:1200px) {
+    
+    .menu-icon{
+        display: flex;
+        cursor: pointer;
+       
+    }
+    .nav_links{
+        gap: 800px; 
+    }
+    .nav_links ul{
+        display: block;
+        position: absolute;
+        margin-top: 250px;
+        background-color: white;
+        z-index: 3;
+        background-image: url(../Image/Remove.png); 
+        background-repeat: no-repeat;
+        background-position-x: 90%;
+        background-position-y:10px;
+        z-index: 4;    
+    }
+    .home{
+        display: block;   
+    }
+    .screenshot{
+        display: block;
+        margin-left: -10px;
+    }
+    .nav_links ul li{
+        display: block;
+        position: relative; 
+    }
+    .nav_links ul li a{
+        display:none;
+        padding: 10px 20px; 
+        border-radius: 10px;  
+    }
+    :hover .nav_links ul li a{
+        display: flex;   
+    }
+     .nav_links ul li a:hover{
+       color: #5956E9;
+    }
+    .head p{
+        width:450px;
+    }
+
+   
+}
+
+@media screen and (max-width:1170px){
+    .container{
+        width: 470px;
+        height: 370px;
+        transform: translateX(-5px);
+        padding: 20px 20px;
+    }
+    .container h2{
+        font-size: 34px;
+        line-height: 40px;
+        width:417px;
+    }
+    .container p{
+        width: 386px;
+    }
+    .Rectangle{
+       width: 425px;
+       height: 425px;
+       transform: translateX(-220px);
+    }
+    .recent{
+        width:480px;
+        height: 580px;
+    }
+    .unlimiterfeatures{
+        margin-left: -700px;
+    }
+    .design{
+        margin-left: -700px;
+    }
+    .android{
+        margin-left: 700px;
+        width:300px;
+        margin-top: -170px;
+    }
+    .retina{
+        margin-left: 700px;
+        width: 300px;
+        margin-top: -180px;
+    }
+    .phones{
+        gap:5px;
+    }
+    .first{
+        transform: translateX(230px);
+        z-index: -1;
+    }
+    .second{
+        transform: translateX(-240px);
+        z-index: -1;
+    }
+    .left-icon{
+        transform: translateX(200px);
+    }
+    .right-icon{
+        transform: translateX(-190px);
+    }
+    .playstore{
+        gap: 80px;
+    }
+    .sensex{
+        width: 406px;
+        height: 400px;
+        margin-top:-10px ;
+    }
+    .down{
+        width: 140px;
+        height: 140px;
+        padding: 5px 5px;
+    }
+    .down h2{
+        line-height: 20px;
+    }
+    .down p{
+        line-height: 20px;
+    }
+    .like{
+        width: 140px;
+        height: 140px;
+        padding: 5px 5px;
+    }
+    .like h2{
+        line-height: 20px;
+    }
+    .like p{
+        line-height: 20px;
+    }
+    .star{
+        width: 160px;
+        height: 140px;
+        padding: 5px 5px;
+    }
+    .star h2{
+        line-height: 20px;
+    }
+    .star p{
+        line-height: 20px;
+    }
+    .blog-post1{
+        width: 320px;
+        height: 560px; 
+        gap: 40px;
+    }
+    .snap{
+      justify-content: center;
+      gap: 10px;
+    }
+    .image1{
+        width:320px;
+       height: 200px;
+    }
+    .blog-post2{
+        width: 320px;
+        height: 560px; 
+        gap: 40px;
+    }
+    .insta{
+      justify-content: center;
+      gap: 10px;
+    }
+    .image2{
+        width:320px;
+       height: 200px;
+    }
+    .blog-post3{
+        width: 320px;
+        height: 560px; 
+        gap: 40px;
+    }
+    .snapchatters{
+      justify-content: center;
+      gap: 10px;
+    }
+    .image3{
+        width:320px;
+       height: 200px;
+    }
+    .Profile1{
+        width: 320px;
+        height: 540px;
+    }
+    .Profile2{
+        width: 320px;
+        height: 540px;
+    }
+    .Profile3{
+        width: 320px;
+        height: 540px;
+    }
+    .foot{
+        width:97%;
+    }
+    .contactus{
+        gap:100px;
+    }
+} 
+
+@media screen and (max-width:1098px){
+    .nav_links{
+        max-width: 90vw;
+        gap:700px;
+    }
+    .header{
+        gap: 40%;
+    }
+    .playstore{
+        gap: 60px;
+    }
+    .subscriber{
+        gap: 10px;
+    }
+    .iphone{
+        width: 280px;
+    }
+    .first{
+        width: 220px;
+        transform: translateX(180px);
+    }
+    .second{
+        width: 220px;
+        transform: translateX(-190px);
+    }
+    .footer{
+        transform: translateX(-10px);
+    }
+    .third{
+        width: 220px;
+    }
+    .fourth{
+        width: 220px;
+    }
+    .left-icon{
+        transform: translateX(140px);
+    }
+    .right-icon{
+        transform: translateX(-140px);
+    }
+    .usage{
+        max-width: 60vw;
+    }
+    .review{
+        max-width: 60vw;
+    }
+    .toll-free{
+        gap: 40px;
+    }
+    .contactus{
+        gap: 60px;
+    }
+    .foot{
+        width:92%;
+    }
+    .head p{
+        width:350px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    
+    .header{
+        gap: 30%;
+    }
+    .nav_links{
+        
+        gap:500px;
+        padding: 10px 60px;
+    }
+    .download{
+       margin-right: -40px;
+    }
+    .app {
+        max-width:60vw;
+    }
+    .features{
+        max-width: 60vw;
+    }
+    .Creative{
+        width:440px;
+        height: 140px;
+        overflow: hidden;
+    }
+    .Easy{
+        width:440px;
+        height: 140px;
+        overflow: hidden;
+    }
+    .Experince{
+        width:440px;
+        height: 140px;
+        overflow: hidden;
+    }
+    .income{
+        width:300px;
+        height:400px ;
+    }
+    .container{
+        width: 380px;
+        height: 370px;
+        transform: translateX(-5px);
+        padding: 10px 10px;
+    }
+    .container h2{
+        font-size: 32px;
+        line-height: 40px;
+        width:350px;
+    }
+    .container p{
+        width: 346px;
+    }
+    .Rectangle{
+       width: 410px;
+       height: 410px;
+       transform: translateX(-220px);
+    }
+    .recent{
+        width:400px;
+        height: 520px;
+    }
+     .mobile{
+        gap: 80px;
+     }
+     .interface{
+        max-width: 50vw;
+     }
+     .App{
+        width:350px;
+        height: 650px;
+        margin-left: 50px;
+        margin-top: -250px;
+    }
+    .unlimiterfeatures{
+       margin-left: -550px;
+       margin-top: 30px;
+       width:280px;
+    }
+    .design{
+        margin-left: -550px;
+        margin-top: -260px;
+        width: 280px;
+    }
+    .android{
+        margin-left:500px;
+        width: 250px;
+    }
+    .android h2{
+        line-height: 35px;
+    }
+    .retina{
+        margin-left: 500px;
+        width: 250px;
+    }
+    .retina h2{
+        line-height: 35px;
+    }
+    .telmarket{
+        margin-top: 20px;
+    }
+    .left-icon{
+        display: none;
+    }
+    .right-icon{
+        display: none;
+    }
+    .portofolio{
+        gap: 10px;
+    }
+    .Profile1{
+        width: 270px;
+        height: 500px;
+        gap: 15px;
+    }
+    .Profile2{
+        width: 270px;
+        height: 500px;
+        gap: 15px;
+    }
+    .Profile3{
+        width:270px;
+        height: 500px;
+        gap: 15px;
+    }
+    .carla h2{
+        font-size: 25px;   
+    }
+    .carla p{
+        font-size: 14px;
+        word-break: keep-all;
+        word-wrap: break-word;
+        width: 250px;
+    }
+    .craig h2{
+        font-size: 25px;   
+    }
+    .craig p{
+        font-size: 14px;
+        word-break: keep-all;
+        word-wrap: break-word;
+        width: 250px;
+    }
+    .jocelyn h2{
+        font-size: 25px;   
+    }
+    .jocelyn p{
+        font-size: 14px;
+        word-break: keep-all;
+        word-wrap: break-word;
+        width: 250px;
+    }
+    .car{
+        width: 178px;
+        height: 178px;
+    }
+    .cra{
+        width: 178px;
+        height: 178px;
+    }
+    .joe{
+        width: 178px;
+        height: 178px;
+    }
+    .circle{
+        width:200px;
+        transform: translateY(-120px);
+    }
+    .blog-post{
+        gap: 5px;
+    }
+    .blog-post1{
+        width: 280px;
+        height: 520px; 
+        gap: 40px;
+    }
+    .snap{
+      justify-content: center;
+      gap: 10px;
+    }
+    .image1{
+        width:280px;
+    }
+    .blog-post2{
+        width: 280px;
+        height: 520px; 
+        gap: 40px;
+    }
+    .insta{
+      justify-content: center;
+      gap: 5px;
+    }
+    .image2{
+        width:280px;
+    }
+    .blog-post3{
+        width: 280px;
+        height: 520px; 
+        gap: 40px;
+    }
+    .snapchatters{
+      justify-content: center;
+      gap: 10px;
+    }
+    .image3{
+        width:280px; 
+    }
+    .toll-free{
+        padding: 30px 80px;
+    }
+    .envelope i{
+        padding: 15px 15px;
+    }
+    .envelope p{
+        font-size: 18px;
+    }
+    .phonecall i{
+        padding: 15px 15px;
+        
+    }
+    .phonecall p{
+        font-size:18px ;
+    }
+    .phonecall{
+        gap: 20px;
+    }
+    .page{
+        width: 240px;
+    }
+    .one{
+        width: 670px;
+    }
+}
+
+
+@media screen and (max-width:872px){
+   .nav_links{
+    gap: 450px;
+   }
+    .recent{
+        width:390px;
+        height: 450px;
+        margin-left: -30px;
+    }
+   .Rectangle{
+         transform: translateX(-200px);
+   }
+   .portofolio{
+    gap: 10px;
+}
+.Profile1{
+    width: 230px;
+    height: 480px;
+    gap: 15px;
+}
+.Profile2{
+    width: 230px;
+    height: 480px;
+    gap: 15px;
+}
+.Profile3{
+    width:230px;
+    height: 480px;
+    gap: 15px;
+}
+.carla h2{
+    font-size: 20px;   
+}
+.carla p{
+    font-size: 14px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    width: 250px;
+}
+.craig h2{
+    font-size: 20px;   
+}
+.craig p{
+    font-size: 14px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    width: 250px;
+}
+.jocelyn h2{
+    font-size: 20px;
+}
+.jocelyn p{
+    font-size: 14px;
+    word-break: keep-all;
+    word-wrap: break-word;
+    width: 250px;
+}
+.car{
+    width: 178px;
+    height: 178px;
+}
+.cra{
+    width: 178px;
+    height: 178px;
+}
+.joe{
+    width: 178px;
+    height: 178px;
+}
+.circle{
+    width:200px;
+    transform: translateY(-120px);
+}
+.icons{
+    gap:20px;
+}
+.playstore
+{
+    gap: 80px;
+}
+.sensex{
+    width: 350px;
+    height: 350px;
+}
+.down{
+    width: 130px;
+    height: 130px;
+}
+.like{
+    width: 130px;
+    height: 130px;
+}
+.star{
+    width: 130px;
+    height: 130px;
+}
+.star img{
+    margin-top: 2px;
+}
+.head h2{
+    line-height: 40px;
+}
+.head p{
+    width: 300px;
+}
+.apple{
+    display: flex;
+}
+.blog-head h2{
+    width: 312px;
+}
+.blog-head p{
+    width: 550px;
+    margin-left: -120px;
+}
+.blog-post{
+    gap: 5px;
+}
+.blog-post1{
+    width: 240px;
+    height: 600px; 
+    gap: 40px;
+}
+.snap{
+  justify-content: center;
+  gap: 10px;
+}
+.image1{
+    width:240px;
+}
+.blog-post2{
+    width: 240px;
+    height: 600px; 
+    gap: 40px;
+}
+.insta{
+  justify-content: center;
+  gap: 5px;
+}
+.insta p{
+    margin: 10px 0px;
+}
+.image2{
+    width:240px;
+}
+.blog-post3{
+    width: 240px;
+    height: 600px; 
+    gap: 40px;
+}
+.snapchatters{
+  justify-content: center;
+  gap: 10px;
+}
+.image3{
+    width:240px;
+}
+.founder1{
+    width:460px;
+    height:290px;
+    overflow: hidden;
+}
+.founder2{
+    width:570px;
+    height:320px;
+    overflow: hidden;
+    padding: 15px 40px;
+}
+.founder3{
+    width: 460px;
+    height: 290px;
+    overflow: hidden;
+}
+.contactus{
+    gap: 10px;
+   
+}
+.socialicons{
+    gap: 15px;
+}
+input[type="email"]{
+    padding:20px 100px 20px 20px;
+}
+.news p{
+    width: 240px;
+}
+.relative{
+    max-width: 60vw;
+}
+}
+
+
+@media screen and (max-width:822px) {
+    .iphone{
+        width: 240px;
+    }
+    .first{
+        width: 180px;
+        transform: translateX(140px);
+    }
+    .second{
+        width: 180px;
+        transform: translateX(-140px);
+    }
+    .footer{
+        transform: translateX(-5px);
+    }
+    .third{
+        width: 180px;
+    }
+    .fourth{
+        width: 180px;
+    }
+    
+}
+
+
+@media screen and (max-width:768px) {
+    
+    .nav_links{
+        gap: 400px;
+    }
+    .nav_links ul li a{
+        font-size:18px;
+        padding:10px 15px;
+    }
+    .header{
+        gap: 22%;
+    }
+    .mobile{
+        margin:100px 0px;
+    }
+    .container{
+        width:356px;
+        height: 318px;
+        transform: translateX(10px);
+    }
+    .container h2{
+        font-size:31.25px;
+        width: 331px;
+    }
+    .container p{
+        width: 330px;
+        height: 66px;
+    }
+    .Rectangle{
+        width:375px;
+        height: 381px;
+        transform: translate(-160px);
+    }
+    .recent{
+        width: 378px;
+        height: 423px;
+    }
+    .store h3{
+        font-size: 20px;
+    }
+    .Creative{
+        width:391px;
+        height: 120px;
+        overflow: hidden;
+    }
+    .Easy{
+        width:391px;
+        height: 120px;
+        overflow: hidden;
+    }
+    .Experince{
+        width:391px;
+        height: 120px;
+        overflow: hidden;
+    }
+    .income{
+        width:238px;
+        height:359px ;
+    }
+    .App{
+        width: 314px;
+        height: 500px;
+        margin-left: 15px;
+        margin-top: -230px;
+    }
+    .chat{
+        width: 223px;
+        height: 171px;
+        margin-left: -20px;
+    }
+    .chat h2{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .chat p{
+        font-size: 14px;
+    }
+    .unlimiterfeatures{
+        width: 223px;
+        height: 171px;
+        margin-left: -500px;
+        margin-top: -10px;
+    }
+    .unlimiterfeatures h2{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .unlimiterfeatures p{
+        font-size: 14px;
+    }
+    .design{
+        width: 223px;
+        height: 170px;
+        margin-left: -500px;
+        margin-top: -230px;
+    }
+    .design h2{
+        font-size: 18px;
+    }
+    .design p{
+        font-size: 14px;
+    }
+    .android{
+        width: 225px;
+        height: 201px;
+        margin-left: 440px;
+    }
+    .android h2{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .android p{
+        font-size: 14px;
+    }
+    .retina{
+        width: 215px;
+        height: 201px;
+        margin-left:440px;
+    }
+    .retina h2{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .retina p{
+        font-size: 14px;
+    }
+    .telmarket{
+        margin-top:-20px;
+        margin-left: 40px;
+    }
+    .telmarket h2{
+        font-size: 18px;
+    }
+    .telmarket p{
+        font-size: 14px;
+    }
+    .head h2{
+        width:288px;
+        height: 95px;
+    }
+    .head p{
+        width: 250px;
+        height: 73px;
+        overflow: hidden;
+    }
+    .fill{
+        width:18px;
+        height: 18px;
+    }
+    .down{
+        width:96px;
+        height: 100px;
+    }
+    .down h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .down p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .like{
+        width:96px;
+        height: 100px;
+    }
+    .like h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .like p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .star{
+        width:96px;
+        height: 100px;
+    }
+    .star h5{
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .star p{
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .sensex{
+        width: 334.48px;
+        height: 311.15px;
+    }
+    .usuage h2{
+        width: 357px;
+        height: 97px;
+    }
+    .portofolio{
+        gap: 20px;
+    }
+    .Profile1{
+        width: 210px;
+        height: 453px;
+        gap: 15px;
+    }
+    .Profile2{
+        width: 210px;
+        height: 453px;
+        gap: 15px;
+    }
+    .Profile3{
+        width:210px;
+        height: 453px;
+        gap: 15px;
+    }
+    .carla h2{
+        font-size: 20px;   
+    }
+    .carla h4{
+        font-size: 16px;
+    }
+    .carla p{
+        font-size: 14px;
+        word-break: keep-all;
+        word-wrap: break-word;
+        width: 200px;
+        overflow: hidden;
+    }
+    .craig h2{
+        font-size: 20px;   
+    }
+    .craig h4{
+        font-size: 16px;
+    }
+    .craig p{
+        font-size: 14px;
+        word-break: keep-all;
+        word-wrap: break-word;
+        width: 200px;  
+    }
+    .jocelyn h2{
+        font-size: 20px;
+    }
+    .jocelyn h4{
+        font-size: 16px;
+    }
+    .jocelyn p{
+        font-size: 14px;
+        word-break: keep-all;
+        word-wrap: break-word;
+        width: 200px;
+    }
+    .car{
+        width: 160px;
+        height: 160px;
+    }
+    .cra{
+        width: 160px;
+        height: 160px;
+    }
+    .joe{
+        width: 160px;
+        height: 160px;
+    }
+    .circle{
+        width:178px;
+        transform: translateY(-130px);
+    }
+    .blog-post{
+        gap: 20px;
+    }
+    .blog-post1{
+        width: 210px;
+        height: 633px; 
+        gap: 40px;
+    }
+    .snap{
+      
+      gap: 10px;
+    }
+    .image1{
+        width:210px;
+        height: 228px;
+    }
+    .blog-post2{
+        width: 210px;
+        height: 633px; 
+        gap: 40px;
+    }
+    .insta{
+      gap: 5px;
+    }
+    .insta h2{
+        word-break: break-all;
+    }
+    .image2{
+        width:210px;
+        height: 228px;
+    }
+    .blog-post3{
+        width: 210px;
+        height: 633px; 
+        gap: 40px;
+    }
+    .snapchatters{
+      gap: 10px;
+    }
+    .snapchatters h2{
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+    .image3{
+        width:210px;
+        height: 228px;
+    }
+     .toll-free{
+        padding: 20px 60px;
+     }
+     .envelope{
+        gap: 10px;
+     }
+     .envelope i{
+        padding: 15px 15px;
+    }
+    .envelope p{
+        font-size: 16px;
+    }
+    .phonecall i{
+        padding: 15px 15px;
+    }
+    .phonecall p{
+        font-size:16px ;
+    }
+    .phonecall{
+        gap: 20px;
+    }
+    .email{
+        margin-left: -40px;
+    }
+    .call{
+        margin-left: -10px;
+    }
+    .contactus{
+        gap: 20px;
+        margin:-30px  0px 80px 0px;
+    }
+    .last{
+        margin: 20px 0px;
+    }
+    .page{
+        width:213px;
+        height: 181px;   
+    }
+    .page p{
+        font-size: 14px;
+    }
+    .links{
+        width:123px;
+        height: 175px;
+    }
+    .links h3{
+        font-size: 20px;
+    }
+    .links ul li{
+        font-size: 14px;
+    }
+    .news{
+        width: 213px;
+        height: 171px;
+    }
+    .news h3{
+        font-size: 20px;
+    }
+    .news p{
+        font-size: 14px;
+    }
+    input[type="email"]{
+        padding:20px 50px 20px 20px;
+    }
+    .plane{
+        transform: translateX(-50px) translateY(5px);
+    }
+    .foot{
+        margin-top: -30px;
+        width: 85%;
+    }
+}
+
+
+@media screen and (max-width:727px){
+
+    .container{
+        width:300px;
+        gap:20px;
+        transform:translateX(-5px)
+    }
+    .header{
+        gap:15%;
+        margin-left:60px;
+    }
+    .nav_links{
+        gap:350px;
+        margin-right:-20px;
+    }
+    .container h2{
+        font-size:25px;
+        width:300px;
+    }
+    .container p{
+        font-size:14px;
+        overflow:hidden;
+        width:270px
+    }
+    .recent{
+        width:300px;
+    }
+    .google{
+        width:120px;
+    }
+    .play{
+        width:120px;
+    }
+    .Rectangle{
+        width:350px;
+        height:350px;
+    }
+    .first{
+        transform:translateX(160px);
+    }
+    .second{
+        transform:translateX(-160px);
+    }
+    .founder2{
+        max-width:70vw;
+    }
+
+}
+
+
+@media screen and (max-width:682px){
+
+    .container{
+        transform: translateX(10px);
+    }
+    .Creative{
+      width:350px;
+    }
+    .Easy{
+      width:350px;
+    }
+    .Experince{
+      width:350px;
+    }
+    .unlimiterfeatures{
+      margin-left:-470px
+    }
+    .design{
+      margin-left:-480px;
+    }
+    .android{
+      margin-left:425px;
+    }
+    .retina{
+      margin-left:420px;
+    }
+    .first{
+        transform: translateX(170px);
+    }
+    .second{
+        transform: translateX(-170px);
+    }
+    .playstore{
+      gap:60px;
+    }
+    .portofolio{
+      gap:5px;
+    }
+    .blog-post{
+      gap:5px;
+    }
+    .one{
+      width:570px;  
+    }
+}
+
+
+@media screen and (max-width:658px){
+    .menu-icon{
+        margin-left:-20px;
+    }
+    .recent{
+        width:280px;
+        height:400px;
+    }
+    .smartphone{
+       gap:10px;
+    }
+    .first{
+        transform:translateX(170px);
+    }
+    .second{
+        transform:translateX(-180px);
+    }
+    .third{
+        transform:translateX(10px);
+    }
+    .fourth{
+        transform:translateX(-10px);
+    }
+    .android{
+        width:200px;
+        margin-left:400px;
+    }
+    .unlimiterfeatures{
+        width:200px;
+        margin-top:10px;
+    }
+    .retina{
+        width:200px;
+    }
+    .App{
+        margin-top:-240px;   
+    }
+    .news{
+        width:220px;
+    }
+    .news p{
+        width:220px;
+    }
+   
+} 
+
+
+@media screen and (max-width:637px){
+    .header{
+        display:none;
+    }
+    .nav_header{
+        margin:50px 0px;
+    }
+    .nav_links{
+        gap:350px;
+    }
+    .download{
+        margin-left:-30px;
+    }
+    .mobile{
+        flex-direction:column;
+        gap:40px;
+    }
+    .Rectangle{
+        width:323px;
+        height:353px;
+        margin-left:300px;
+        margin-top:-570px
+    }
+    .container{
+        margin-left:-40px;
+    }
+    .recent{
+        width:466px;
+        height:521px;
+        margin-left:130px;
+    }
+    .smartphone{
+        flex-direction:column;
+        gap:80px;
+    }
+    .chat{
+        margin-left:10px
+    }
+    .unlimiterfeatures{
+        margin-left:0px;
+        text-align:center;
+        width:223px;
+        margin-top:0px;
+    }
+    .android{
+        margin-left:0px;
+        margin-top:0px;
+        text-align:center;
+    }
+    .App{
+        margin-top:0px;
+        margin-left:40px;
+        width:300px;
+        
+    }
+    .design{
+        margin-left:0px;
+        margin-top:0px;
+        text-align:center;
+    }
+    .retina{
+        margin-left:0px;
+        text-align:center;
+        margin-top:30px;  
+    }
+    .telmarket{
+        margin-top:10px;
+        margin-left:80px;
+        width:214px;
+    }
+    .interface{
+        max-width:60vw;
+    }
+    .first{
+        display:none;
+    }
+    .second{
+        display:none;
+    }
+    .playstore{
+        flex-direction:column;
+        gap:10px;
+    }
+    .updates{
+        margin-left:-50px
+    }
+   .head p{
+       width:350px;
+   }
+    .subscriber{
+        width:300px;
+    }
+    .sensex{
+        margin-left:40px;
+    }
+    .one{
+        width:470px;
+    }
+    .portofolio{
+        flex-direction:column;
+        gap:10px;
+    }
+    .Profile1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:80px;
+        width: 343px;
+        height: 580px;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        border-radius: 10px;
+    }
+    .Profile2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:80px;
+        width: 343px;
+        height: 580px;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        border-radius: 10px;
+    }
+    .Profile3{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap:80px;
+        width: 343px;
+        height: 580px;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        border-radius: 10px;
+    }
+    .circle{
+        position: absolute;
+        transform: translateY(-150px);
+    }
+    .carla{
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .carla h2{
+        font-size: 31.25px;
+        font-weight: 700;
+        color: #232233;
+        line-height: 47.25px;
+        text-transform: uppercase;
+    }
+    .carla h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #6C6C72;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .carla p{
+        font-size: 16px;
+        font-weight: 400;
+        color:#6C6C72;
+        line-height: 24px;
+        width: 326px;
+    }
+    .craig{
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .craig h2{
+        font-size: 31.25px;
+        font-weight: 700;
+        color: #232233;
+        line-height: 47.25px;
+        text-transform: uppercase;
+    }
+    .craig h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #6C6C72;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .craig p{
+        font-size: 16px;
+        font-weight: 400;
+        color:#6C6C72;
+        line-height: 24px;
+        width: 326px;
+    }
+    .jocelyn{
+        display: flex;
+        justify-content: space-between;
+        gap: 5px;
+        flex-direction: column;
+    }
+    .jocelyn h2{
+        font-size: 31.25px;
+        font-weight: 700;
+        color: #232233;
+        line-height: 47.25px;
+        text-transform: uppercase;
+    }
+    .jocelyn h4{
+        font-size: 20px;
+        font-weight: 600;
+        color: #6C6C72;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    .jocelyn p{
+        font-size: 16px;
+        font-weight: 400;
+        color:#6C6C72;
+        line-height: 24px;
+        width: 326px;
+    }
+    .icons{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+    .blog-head{
+        margin-left:-80px
+    }
+    .blog-post{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-direction: column;
+        gap: 40px;
+        margin: 50px 0px;
+    
+    }
+    .blog-post1{
+        width:343px;
+        height: 484px;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        border-radius: 10px;   
+    }
+    .snap{
+        display: flex;
+        flex-direction: column; 
+        padding: 15px; 
+    }
+    .snap h2{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #232233;
+        text-transform: uppercase;
+    }
+    .snap p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #6C6C72;
+        line-height: 24px;
+    }
+    .snap a{
+        font-size: 20px;
+        font-weight:600;
+        line-height: 26px;
+        text-transform: uppercase;
+        color:#5851EA;
+    }
+    .blog-post2{
+        width: 343px;
+        height: 484px;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        border-radius: 10px;
+    }
+    .insta{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    .insta h2{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #232233;
+        text-transform: uppercase;
+        word-break:break-all;
+        width:315px;
+        height:60px;
+    }
+    .insta p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #6C6C72;
+        line-height: 24px;
+    }
+    .insta a{
+        font-size: 20px;
+        font-weight:600;
+        line-height: 26px;
+        text-transform: uppercase;
+        color:#5851EA;
+    }
+    .blog-post3{
+        width: 343px;
+        height: 484px;
+        box-shadow: 0px 1px 10px 0px #0000001A;
+        border-radius: 10px;
+    }
+    .snapchatters{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 15px;
+    }
+    .snapchatters h2{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #232233;
+        text-transform: uppercase;
+        word-break:break-all;
+        width:313px;
+        height:60px;
+    }
+    .snapchatters p{
+        font-size: 16px;
+        font-weight: 400;
+        color: #6C6C72;
+        line-height: 24px;
+        
+    }
+    .snapchatters a{
+        font-size: 20px;
+        font-weight:600;
+        line-height: 26px;
+        text-transform: uppercase;
+        color:#5851EA;
+    }
+    .image1{
+        width:343px;
+    }
+    .image2{
+        width:343px;
+    }
+    .image3{
+        width:343px;
+    }
+    .toll-free{
+        flex-direction:column;
+        gap:5px;
+        padding:10px 40px;
+        margin-top:-20px
+    }
+    .envelope{
+     flex-direction:column;
+        gap:5px;
+    }
+    .envelope i{
+        padding:15px 15px;
+        font-size:18px;
+    }
+    .envelope p{
+        margin-top:10px;
+        font-weight:600;
+        font-size:20px;
+        text-transform:uppercase;
+    }
+    .email{
+        margin-left:110px;
+    }
+    .Right{
+        transform:rotate(90deg);
+        margin-top:-50px;
+    }
+    .phonecall{
+        flex-direction:column;
+        gap:5px;
+        margin-top:-40px;
+    }
+    .phonecall i{
+        padding:15px 15px;
+        font-size:18px;
+    }
+    .phonecall p{
+        margin-top:10px;
+        font-weight:600;
+        font-size:20px;
+    }
+    .call{
+        margin-left:70px
+    }
+    .contactus{
+        flex-direction:column;
+    }
+    .links{
+        margin-left:-100px;
+    }
+
+}
+
+
+@media screen and (max-width:594px){
+  .nav_links{
+      gap:320px;
+  }
+    .container{
+        width:290px;
+        height:290px;
+        gap:10px;
+        transform:translateY(-55px);
+    }
+   .container h2{
+       font-size:22px;
+       width:250px;
+       line-height:28px
+   }
+    .container p{
+        line-height:21px;
+    }
+    .store h3{
+        font-size:18px;
+    } 
+    .recent{
+        width:350px;
+        height:420px;
+        margin-left:90px;
+    }
+    .app p{
+        height:70px;
+        overflow:hidden;
+    }
+    .features{
+        height:135px;
+        overflow:hidden;
+    }
+    .interface p{
+        height:75px;
+        overflow:hidden;
+    }
+    .usage p{
+        height:70px;
+        overflow:hidden
+    }
+    .relative p{
+        height:70px;
+        overflow:hidden;
+    }
+    .review p{
+        height:70px;
+        overflow:hidden;
+    }
+    .blog-head p{
+        height:70px;
+        overflow:hidden;
+    }
+    .playstore{
+        margin-left:-60px
+    }
+    .iphone{
+        width:280px;
+        z-index: 2;
+    }
+    .third{
+        width:200px;
+       transform:translateX(150px);
+    }
+    .fourth{
+        width:200px;
+        transform:translateX(-150px);  
+    }
+    .blog-head h2{
+        width:280px
+    }
+    .blog-head p{
+        width:380px;
+        margin-left:-50px;
+    }
+}
+
+
+@media screen and (max-width:544px){
+    .nav_links{
+        gap:300px;
+    }
+    .download{
+        margin-left:-40px;
+    }
+    .Logo{
+        transform:translateX(-10px)
+    }
+    .playstore{
+        margin-left:-120px;
+    }
+    .blog-head {
+        margin-left:-120px;
+    }
+    #section-e{
+        padding:150px 50px
+    }
+    .one{
+        margin-top:380px;
+       
+    }
+    .relative{
+        margin-top:-100px;
+    }
+}
+
+
+@media screen and (max-width:506px){
+    .Logo img{
+        width:180px;
+        height:90px;
+    }
+    .download{
+        font-size:16px;
+    }
+}
+
+
+@media screen and (max-width:486px){
+    .nav_links{
+        gap:250px;
+    }
+    .nav_links ul{
+        margin-top:220px;
+        margin-left:-30px;
+    }
+    .nav_links ul li a{
+        font-size:16px;
+    }
+    .Logo img{
+        width:140px;
+        height:70px;
+    }
+    .download{
+        font-size:14px;
+    }
+    .menu-icon{
+        font-size:25px;
+        margin-left:-30px;
+    }
+    .one{
+        width:350px;
+        margin-top:380px;
+    }
+    .recent{
+        width:300px;
+        height:400px;
+        margin-left:70px;
+    }
+   
+}
+
+
+@media screen and (max-width:460px){
+    .interface h2{
+        font-size:25px;
+        line-height:30px;
+    }
+   
+}
+
+
+@media screen and (max-width:425px){
+    .nav_links{
+        margin-left:-30px;
+        gap:230px;
+    }
+    .Logo{
+        margin-left:-10px;
+    }
+    .Rectangle{
+        width:300px;
+        height:300px;
+    }
+    .mobile{
+        margin:150px 0px;
+    }
+   .store{
+       margin-top:-15px;
+   }
+    .container{
+        margin-top:-20px;
+        height:260px;
+    }
+    .container h2{
+        line-height:24px;
+    }
+    .features p{
+        height:75px;
+        overflow:hidden;
+    }
+    .interface h2{
+        font-size:20px;
+    }
+    .playstore{
+        margin-left:-150px;
+    }
+    .sensex{
+        margin-left:150px;
+    }
+    .one{
+        margin-top:380px;
+        height:280px
+    }
+    .contactus{
+        margin-left:-100px;
+    }
+    .page{
+        width:300px;
+        margin-left:100px;
+    }
+    .news p{
+        width:300px;
+    }
+    input[type="email"]{
+        padding:20px 120px 20px 20px;
+    }
+    .plane{
+        transform:translateX(230px) translateY(-50px);
+     }
+}
+
+
+@media screen and (max-width:398px){
+    .nav_links{
+        gap:210px;
+    }
+    .app h2{
+        font-size:30px;
+    }
+    .Logo{
+        margin-left:-30px
+    }
+    .recent{
+        margin-left:40px
+    }
+    .relative h2{
+        font-size:25px;
+    }
+    .blog-head{
+        margin-left:-150px;
+    }
+    .blog-head h2{
+        font-size:25px;
+    }.blog-head p{
+        width:300px;
+        margin-left:-10px
+    }
+    .founder2 h2{
+        font-size:25px;
+    }
+    .founder2 h4{
+        font-size:16px
+    }
+    .third{
+        transform:translateX(180px)
+    }
+    .fourth{
+        transform:translateX(-180px)
+    }
+}
+
+
+@media screen and (max-width:375px){
+    .nav_links{
+        gap:200px;
+    }
+    .download{
+        margin-left:-30px;
+    }
+    .Logo{
+        margin-left:-30px;
+    }
+    .recent{
+        margin-left:30px;
+    }
+    .Creative{
+        width:300px;
+    }
+    .Easy{
+        width:300px;
+    }
+    .Experince{
+        width:300px;
+        height:120px;
+    }
+    .features{
+        margin-left:-20px;
+    }
+    .specifications{
+        margin-left:-30px
+    }
+    .interface h2{
+        width:250px;
+        margin-left:-20px;
+    }
+    .head p{
+        width:300px;   
+    }
+    .sensex{
+        width:300px;
+    }
+    .usage h2{
+        font-size:20px;
+        line-height:30px
+    }
+    .one{
+        width:250px;
+        height:200px;
+        margin-top:350px;
+    }
+    .Profile1{
+        width:300px;
+        height:500px;
+        gap:40px;
+    }
+    .carla p{
+        width:300px;
+    }
+    .Profile2{
+        width:300px;
+        height:500px;
+        gap:40px;
+    }
+    .craig p{
+        width:300px;
+    }
+    .Profile3{
+        width:300px;
+        height:500px;
+        gap:40px
+    }
+    .jocelyn h2{
+        font-size:28px;
+    }
+    .jocelyn p{
+        width:300px;
+    }
+    .circle{
+        transform:translateY(-130px)
+    }
+    .toll-free{
+        padding:10px 20px;
+    }
+    .blog-post1{
+        width:300px;
+    }
+    .image1{
+        width:300px;
+    }
+    .snap h2{
+        line-height:24px
+    }
+    .snap p{
+        height:50px;
+        overflow:hidden;
+    }
+    .blog-post2{
+        width:300px;
+    }
+    .image2{
+        width:300px;   
+    }
+    .insta h2{
+        width:290px;
+        line-height:24px;
+    }
+    .insta p{
+        height:50px;
+        overflow:hidden;
+    }
+    .blog-post3{
+        width:300px;
+    }
+    .image3{
+        width:300px;
+    }
+    .snapchatters h2{
+        width:290px;
+        line-height:24px; 
+    }
+    .snapchatters p{
+        height:50px;
+        overflow:hidden;
+    }
+    
+}
+
+
+@media screen and (max-width:360px){
+    .nav_links{
+        gap:190px;
+    }
+}
+
+
+@media screen and (max-width:338px){
+    .nav_links{
+        gap:170px;
+    }
+    .download{
+        font-size:12px;
+    }
+    .recent{
+      width:250px;
+        height:350px;
+        margin-left:60px;
+    }
+    .Rectangle{
+        margin-top:-480px;
+        margin-left:325px
+    }
+    .container{
+        margin-top:20px;
+        margin-left:5px;   
+    }
+    .specifications{
+        width:350px;
+    }
+    .third{
+        transform:translateX(200px)
+    }
+    .fourth{
+        transform:translateX(-200px);
+    }
+    .blog-head h2{
+        margin-left:-20px
+    }
+    .blog-head p{
+        margin-left:-20px;
+    }
+    .contactus{
+        margin-left:-90px;
+    }
+    .links{
+        margin-left:-80px;
+    }
+    .news{
+        margin-left:20px;
+    }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
